@@ -1,0 +1,47 @@
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+form {
+  border-style: dashed;
+  padding: 10px;
+}
+
+label {
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+input,
+select {
+  padding: 2px 5px;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+  text-align: start;
+  margin: 20px 0px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+}
+th {
+  background-color: rgb(230, 230, 230);
+}
+
+tfoot {
+  font-weight: 700;
+  background-color: rgb(228, 255, 255);
+}
+.error {
+  color: red;
+  margin: 0%;
+  font-size: 14px;
+}
